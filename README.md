@@ -55,13 +55,11 @@ Got Test accuracy of 96.9%.. Below is Test confusion Matrix.
 | Random Forest      | 91.08      | 
 | GradientBoosting DT      | 92.63      | 
 ##### With Raw Series data and Deep Learning Algorithms  
-+-----------+------------+----------------+-----------+---------------+
-|   Model   | Train Loss | Train Accuracy | Test Loss | Test Accuracy |
-+-----------+------------+----------------+-----------+---------------+
-| Two class |   0.0121   |     0.9977     |   0.0014  |     0.9997    |
-|  Static   |   0.0242   |     0.9930     |   0.1327  |     0.9632    |
-|  Dynamic  |   0.0032   |     0.9991     |   0.0315  |     0.9892    |
-+-----------+------------+----------------+-----------+---------------+
+| Model        | Test Accuracy % | Test Loss
+| ------------- |-------------|
+| Two class      | 99.7 |0.0014 |
+| Static      | 96.32      | 0.1327 |
+| Dynamic      | 98.92 | 0.0315|
 
 References:
 1. Deep Learning Models for Human Activity Recognition by machinelearningmastery.com
